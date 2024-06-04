@@ -2,7 +2,8 @@ import CategoryList from "@/components/CategoryList";
 import ProductList from "@/components/ProductList";
 import Slider from "@/components/Slider";
 
-const HomePage = () => {
+const HomePage = async () => {
+ 
   return (
     <div className="">
       <Slider />

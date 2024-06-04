@@ -36,8 +36,8 @@ const NavIcons = () => {
         </div>
       )}
       <Bell className="cursor-pointer" />
-      <div className="relative cursor-pointer">
-        <ShoppingCart onClick={handleCart} />
+      <div className="relative cursor-pointer" onClick={handleCart}>
+        <ShoppingCart />
         <div className="-top-4 -right-4 absolute flex justify-center items-center bg-main rounded-full w-6 h-6 text-sm text-white">
           2
         </div>
